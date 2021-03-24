@@ -38,7 +38,7 @@ const Col = {
         return <th {...labelProps}>{label}</th>;
       }
       return (
-        <td class={`${prefixCls}-item-content`} key={`${key}-content`} colSpan={span * 2 - 1}>
+        <td class={`${prefixCls}-item-content`} key={`${key}-content`} colSpan={span}>
           {slots.default}
         </td>
       );
