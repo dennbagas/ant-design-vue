@@ -43,7 +43,7 @@
     "lint:style": "stylelint \"{site,components}/**/*.less\" --syntax less",
     "codecov": "codecov",
     "postinstall": "node scripts/postinstall || echo \"ignore\"",
-    "prepare": "npm run compile"
+    "prepare": "npm run pre-publish"
   },
   "repository": {
     "type": "git",
