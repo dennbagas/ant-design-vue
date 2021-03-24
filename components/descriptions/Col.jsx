@@ -30,7 +30,7 @@ const Col = {
       key: `${key}-label`,
     };
     if (layout === 'vertical') {
-      labelProps.attrs.colSpan = span * 2 - 1;
+      labelProps.attrs.colSpan = span;
     }
 
     if (bordered) {
